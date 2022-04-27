@@ -1,0 +1,32 @@
+.ISO-container {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	display: flex;
+}
+
+.ISO-container div:nth-child(1) {
+	width: 40vw;
+	height: 100vh;
+}
+
+.yellow-box {
+	width: 60vw;
+	height: 100vh;
+	background-color: #fbffa7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.yellow-box .img-one {
+	height: 400px;
+}
+
+.img-two {
+	position: absolute;
+	height: 550px;
+
+	right: 85%;
+}

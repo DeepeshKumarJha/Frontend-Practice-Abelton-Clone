@@ -1,0 +1,18 @@
+.hero-container {
+	width: 100vw;
+	height: fit-content;
+}
+
+.hero-image {
+	background-image: url('../../assets/images/hero.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	min-height: calc(100vh - 120px);
+	margin: 0 8.333vw;
+	color: #fd5948;
+	font-size: 10rem;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
